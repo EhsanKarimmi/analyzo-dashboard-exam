@@ -21,3 +21,14 @@
 .ltr-direction {
     direction: ltr !important;
 }
+
+@layer utilities {
+    th,
+    td {
+        @apply py-1 px-2 text-start;
+    }
+
+    thead {
+        @apply py-20;
+    }
+}
